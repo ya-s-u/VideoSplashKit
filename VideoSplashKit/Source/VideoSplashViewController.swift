@@ -16,7 +16,7 @@ public enum ScalingMode {
     case resizeAspectFill
 }
 
-public class VideoSplashViewController: UIViewController {
+open class VideoSplashViewController: UIViewController {
     
     private let moviePlayer = AVPlayerViewController()
     private var moviePlayerSoundLevel: Float = 1.0
