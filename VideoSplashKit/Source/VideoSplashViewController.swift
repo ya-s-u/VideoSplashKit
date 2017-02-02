@@ -10,7 +10,7 @@ import UIKit
 import MediaPlayer
 import AVKit
 
-open enum ScalingMode {
+public enum ScalingMode {
     case resize
     case resizeAspect
     case resizeAspectFill
